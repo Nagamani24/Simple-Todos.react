@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+
+button {
+  font-size: 12px;
+  border-width: 1px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #ee6067;
+  color: #ee6067;
+  background-color: transparent;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: Roboto;
+  font-weight: bold;
+}
